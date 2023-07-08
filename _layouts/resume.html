@@ -103,6 +103,7 @@
         </header>
         <h3>&bull; Preprint</h3>
         {% for pub in site.data.publications %}
+        {{forloop.counter}}. 
         <!-- <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork"> -->
           <!-- <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" /> -->
           {% if pub.type == "Preprint" %}
