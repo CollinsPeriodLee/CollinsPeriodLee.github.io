@@ -1,4 +1,5 @@
-- name: python: pytorch, jax, tensorflow
+- name: "python: pytorch, jax, tensorflow"
 - name: julia
 - name: matlab
 - name: latex
+- name: "c, c++"
