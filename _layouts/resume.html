@@ -125,7 +125,8 @@
         {% for honor in site.data.Honors %}
         <div class="resume-item">
           <h3 class="resume-item-title">{{ honor.name}}</h3>
-          <h4 class="resume-item-details">{{ honor.description }} &bull; {{honor.time}} </h4>
+          <p class="resume-item-details">{{ honor.description }}<p>
+          <p class="resume-item-details">{{honor.time}} <p>
         </div>
         {% endfor %}
 
