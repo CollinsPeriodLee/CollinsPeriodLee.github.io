@@ -124,7 +124,7 @@
         </header>
         {% for honor in site.data.Honors %}
         <div class="resume-item">
-          <h3 class="resume-item-title">{{ honor.name}}</h3>
+          <h4 class="resume-item-details">{{ honor.name}}</h4>
           <p class="resume-item-details">{{ honor.description }}<p>
           <p class="resume-item-details">{{honor.time}} <p>
         </div>
@@ -164,7 +164,7 @@
 
         {% for conf in site.data.conferenceOrganizations %}
         <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">&bull; {{ conf.name }}</h3>
+          <h4 class="resume-item-details" itemprop="name">&bull; {{ conf.name }}</h4>
           <p class="resume-item-details" itemprop="description">{{ conf.address }}</p>
           <p class="resume-item-details" itemprop="description">{{ conf.time }}</p>
         </div>
@@ -185,7 +185,7 @@
         <div class="resume-item">
             {% for pre in site.data.Presentations %}
             <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
-              <h3 class="resume-item-title" itemprop="name">&bull; {{ pre.title }} </h3>
+              <h4 class="resume-item-details" itemprop="name">&bull; {{ pre.title }} </h4>
               <p class="resume-item-details" itemprop="description">{{ pre.conferenceName }}</p>
               <p class="resume-item-details" itemprop="description">{{ pre.address }}</p>
               <p class="resume-item-details" itemprop="description">{{ pre.time }}</p>
@@ -206,11 +206,9 @@
         </header>
 
         <div class="resume-item">
-          <ul class="resume-item-list">
             {% for programming in site.data.programLanguages %}
             <h4 class="resume-item-details" itemprop="description" >{{ programming.name }}</h4>
             {% endfor %}
-          </ul>
         </div>
 
       </section>
