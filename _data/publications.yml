@@ -1,0 +1,40 @@
+- title: On the convergence of the multi-scale deep neural network (mscalednn) in approximating oscillatory functions
+  authors: Bo Wang, Heng Yuan, Lizuo Liu, Wenzhong Zhang, and Wei Cai
+  arxiv: "arXiv: 2212.03416"
+  date: 2022
+  type: Preprint
+  journals:
+  pages:
+  
+- title: "DeepPropNet – A recursive deep propagator neural network for learning evolution PDE operators"
+  authors: Lizuo Liu and Wei Cai
+  arxiv: "arXiv: 2202.13429"
+  date: 2022
+  type: Preprint
+  journals:
+  pages:
+  
+- title: "A causality-deeponet for causal responses of linear dynamical systems"
+  authors: Lizuo Liu, Kamaljyoti Nath, and Wei Cai
+  arxiv: "arXiv: 2209.08397"
+  date: "2022, Submitted to Journal of CiCP (Mar. 2023)"
+  type: Preprint
+  journals:
+  pages:
+
+- title: "A causality-deeponet for causal responses of linear dynamical systems"
+  authors: Lizuo Liu, Bo Wang, and Wei Cai
+  arxiv: 
+  type: Journals
+  journals: East Asian Journal on Applied Mathematics
+  pages: 13 (3). 740-758
+  date: 2023
+
+- title: A phase shift deep neural network for high frequency approximation and wave problems
+  authors: Wei Cai, Xiaoguang Li, and Lizuo Liu
+  arxiv:
+  date: 2020
+  type: Journals
+  journals: SIAM J. Sci. Comput.
+  pages: "42:A3285–A3312"
+  
