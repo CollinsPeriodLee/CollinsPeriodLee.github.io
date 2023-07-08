@@ -58,8 +58,7 @@
 
         {% for rs in site.data.researchInterests %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{{ rs.Topics }}</h3>
-          <h4 class="resume-item-details" itemprop="description">&bull; {{ rs.contents }}</h4>
+          <h3 class="resume-item-title" itemprop="name">&bull; {{ rs.Topics }}</h3>
         </div><!-- end of resume-item -->
         {% endfor %}
 
@@ -125,7 +124,7 @@
         </header>
         {% for honor in site.data.Honors %}
         <div class="resume-item">
-          <h4 class="resume-item-details">{{ honor.title }}</h4>
+          <h4 class="resume-item-details">{{ honor.nam}}</h4>
           <p class="resume-item-copy">{{ honor.description }} &bull; {{honor.time}} </p>
         </div>
         {% endfor %}
