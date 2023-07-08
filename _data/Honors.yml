@@ -1,6 +1,6 @@
 - name: SIAM Student Travel Award
   description: Award on SIAM Conference on Mathematics of Data Science, San Diego, CA
-  time: September 26 - 30, 2022
+  time: September 26 &mdash; 30, 2022
 - name: 2018 Excellent Bachelor Thesis
   description: Award on School of Mathematics Sciences, Shanghai Jiao Tong University
   time: 2018
