@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Lizuo Liu"
-resume_title:                   "Learner, Researcher"
+resume_title:                   "Researcher, Ankier"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "lizuol@smu.edu"
