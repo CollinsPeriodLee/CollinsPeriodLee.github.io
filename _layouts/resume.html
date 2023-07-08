@@ -101,16 +101,29 @@
         <header class="section-header">
           <h2>Publications</h2>
         </header>
-
+        <h3>&bull; Preprint</h3>
         {% for pub in site.data.publications %}
-        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
-          <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
-          <p class="resume-item-copy">{{ project.description }}</p>
-        </div>
+        <!-- <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork"> -->
+          <!-- <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" /> -->
+          {% if pub.type == "Preprint" %}
+             <p class="resume-item-details" itemprop="name">
+               {{pub.authors}}, {{ pub.title }}, {{ pub.arxiv }}, {{ pub.date }}
+             </p>
+           {% endif %}
+        <!-- </div> -->
         {% endfor %}
-
+        
+        <h3>&bull; Journals</h3>
+        {% for pub in site.data.publications %}
+        <!-- <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork"> -->
+          <!-- <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" /> -->
+          {% if pub.type == "Journals" %}
+             <p class="resume-item-details" itemprop="name">
+               {{pub.authors}}, {{ pub.title }}, {{ pub.journals }}, {{ pub.pages }}, ({{ pub.date }})
+             </p>
+           {% endif %}
+        <!-- </div> -->
+        {% endfor %}
       </section>
       <!-- end Projects -->
       {% endif %}
