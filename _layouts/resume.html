@@ -153,7 +153,7 @@
       <!-- end Recognition -->
       {% endif %}
 
-      {% if site.resume_section_ConferenceOrgnizations %}
+      {% if site.resume_section_ConferenceOrganizations %}
       <!-- begin Associations -->
       <section class="content-section">
 
@@ -161,7 +161,7 @@
           <h2>Conference Organizations</h2>
         </header>
 
-        {% for conf in site.data.conferenceOrgnizations %}
+        {% for conf in site.data.conferenceOrganizations %}
         <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">conf.name</h3>
           <h4 class="resume-item-details" itemprop="description">{{ conf.address }} &bull; {{ conf.time }}</h4>
