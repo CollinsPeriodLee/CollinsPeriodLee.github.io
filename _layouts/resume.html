@@ -107,7 +107,7 @@
           <!-- <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" /> -->
           {% if pub.type == "Preprint" %}
              <p class="resume-item-details" itemprop="name">
-               {{pub.authors}}, {{ pub.title }}, {{ pub.arxiv }}, {{ pub.date }}
+             {{forloop.counter}}.  {{pub.authors}}, {{ pub.title }}, {{ pub.arxiv }}, {{ pub.date }}
              </p>
            {% endif %}
         <!-- </div> -->
@@ -115,14 +115,14 @@
         
         <h3>&bull; Journals</h3>
         {% for pub in site.data.publications %}
-        <!-- <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork"> -->
+        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <!-- <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" /> -->
           {% if pub.type == "Journals" %}
              <p class="resume-item-details" itemprop="name">
-               {{pub.authors}}, {{ pub.title }}, {{ pub.journals }}, {{ pub.pages }}, ({{ pub.date }})
+             {{forloop.counter}}.  {{pub.authors}}, {{ pub.title }}, {{ pub.journals }}, {{ pub.pages }}, ({{ pub.date }})
              </p>
            {% endif %}
-        <!-- </div> -->
+        </div>
         {% endfor %}
       </section>
       <!-- end Projects -->
