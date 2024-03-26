@@ -1,5 +1,5 @@
 # Site settings
-title: "Lizuo Liu's Homepage"
+title: "Lizuo Liu"
 description: "A resume of Lizuo Liu."
 
 # Build settings
@@ -14,7 +14,7 @@ resume_name:                    "Lizuo Liu"
 resume_title:                   "Researcher, Ankier"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "lizuol@smu.edu"
+resume_contact_email:           "lizuo.liu@dartmouth.edu"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       "682-331-1601"
