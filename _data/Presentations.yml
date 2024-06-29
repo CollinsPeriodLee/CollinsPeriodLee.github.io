@@ -1,3 +1,13 @@
+- title: DeepPropNet - A Recursive Deep Neural Network Propagator for Learning Evolutionary PDE Operators
+  ConferenceName: The third North American High Order Methods Conference
+  address: Hanover, NH
+  time: June 17- June 19, 2024
+
+- title: Designing Neural Networks for Hyperbolic Conservation Laws to Predict Entropy Stable Solutions
+  ConferenceName: SIAM New York-New Jersey- Pennsylvania Section
+  address: Newark, NJ
+  time: October 20 - October 22, 2023
+
 - title: Multiscale DNN for Oscillatory Navier-Stokes Flows and Causality in DNN for Dynamic Systems
   conferenceName: 30 minutes minisymposium, SIAM Conference on Mathematics of Data Science
   address: San Diego, CA
