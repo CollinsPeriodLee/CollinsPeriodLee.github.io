@@ -16,11 +16,12 @@
   
 - title: "A causality-deeponet for causal responses of linear dynamical systems"
   authors: Lizuo Liu, Kamaljyoti Nath, and Wei Cai
-  arxiv: "arXiv: 2209.08397"
-  date: "2022, Submitted to Communications in Computational Physics (Mar. 2023)"
-  type: Preprint
-  journals:
-  pages:
+  arxiv: 
+  date: 2024
+  type: Journals
+  journals: Communications in Computational Physics.
+  pages:  35 (5). 1194-1228
+
 
 - title: "Linearized learning methods with multiscale deep neural networks for stationary Navier-Stokes equations with oscillatory solutions"
   authors: Lizuo Liu, Bo Wang, and Wei Cai
