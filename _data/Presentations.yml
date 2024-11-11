@@ -1,3 +1,8 @@
+- title: DeepPropNet for Learning Non-homogeneous PDEs and Entropy-stable CFN for Hyperbolic Conservation Laws
+  ConferenceName: SIAM Conference on Mathematics of Data Science
+  address: Atlanta, GA
+  time: October 20 - October 25, 2024
+
 - title: DeepPropNet - A Recursive Deep Neural Network Propagator for Learning Evolutionary PDE Operators
   ConferenceName: The third North American High Order Methods Conference
   address: Hanover, NH
