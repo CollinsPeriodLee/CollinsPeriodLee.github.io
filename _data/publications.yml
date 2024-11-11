@@ -46,7 +46,7 @@
   date: 2020
   type: Journals
   journals: SIAM Journal on Scientific Computing
-  pages: 42:A3285–A3312
+  pages: "42:A3285–A3312"
 
 - title: Electrical insulation of ceramic thin film on metallic aero-engine blade for high temperature sensor applications. 
   authors: Junchao Gao, Franklin Li Duan, Chang Yu, Wentao Meng, Lizuo Liu, Guifu Ding, Congchun Zhang, and
@@ -55,4 +55,4 @@ Ying Wang.
   date: 2016
   type: Journals
   journals: Ceramics International
-  pages: 42(16):19269–19275
+  pages: "42(16):19269–19275"
