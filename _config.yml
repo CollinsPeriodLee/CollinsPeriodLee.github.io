@@ -1,5 +1,5 @@
 # Site settings
-title: "Lizuo Liu"
+title: "Lizuo Liu（刘栗佐）"
 description: "A resume of Lizuo Liu."
 
 # Build settings
@@ -10,7 +10,7 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Lizuo Liu"
+resume_name:                    "Lizuo Liu (刘栗佐)"
 resume_title:                   "Researcher, Ankier"
 
 # used for the contact button in _layouts/resume.html
